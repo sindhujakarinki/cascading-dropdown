@@ -1,0 +1,99 @@
+p {
+  font-family: Lato;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  margin: 0;
+  background-color: #333650;
+}
+.container {
+  background-color: #f6bdbd;
+  padding: 90px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.for {
+  margin-right: 50px;
+}
+.listitems,
+.shopitems {
+  display: flex;
+  padding: 25px;
+}
+
+.select {
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+.list-label1,
+.shop-label1,
+.product-label1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+.list-label2,
+.shop-label2,
+.product-label2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 13px; /* Adjust as needed */
+}
+.shop-label1 {
+  margin-left: -42px;
+}
+.shop-label2 {
+  margin-left: -42px;
+}
+.product-label1 {
+  margin-left: -99px;
+}
+.product-label2 {
+  margin-left: -94px;
+}
+.list-label1 label,
+.shop-label1 label,
+.product-label1 label {
+  margin-right: 20px; /* Adjust as needed */
+}
+.list-label2 select,
+.shop-label2 select,
+.product-label2 select {
+  margin-left: 17px;
+}
+.selectshop1,
+.selectshop2 {
+  margin-right: 17px;
+  padding: 5px;
+  margin-left: 30px;
+}
+select {
+  /* width: 80%; */
+  display: inline-block;
+  margin: 1px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+.selectedPrice {
+  padding: 5px;
+  margin-top: 8px;
+}
+.comparison select {
+  margin-left: -20px;
+  width: 120px; /* Adjust width as needed */
+  text-align: center;
+}
+.comparison {
+  margin-left: -40px;
+}
+.comparison option {
+  text-align: center;
+}
